@@ -1,11 +1,11 @@
-require 'test_helper'
+require './test_helper'
 
 class ArrayTest < EdgeCase::TestCase
 
   def test_basic_arrays
     food = [:peanut, :button, :and, :jelly]
-    assert_equal __, food[0]
-    assert_equal __, food.size
+    assert_equal :peanut, food[0]
+    assert_equal 4, food.size
   end
 
   def test_array_access
